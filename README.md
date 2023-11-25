@@ -1,9 +1,10 @@
 # arrow_notation_cheatsheet
 
 // Traditional anonymous function
-(function (a) {
+
+function (a) {
   return a + 100;
-});
+};
 
 // 1. Remove the word "function" and place arrow between the argument and opening body brace
 (a) => {
